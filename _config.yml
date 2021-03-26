@@ -1,0 +1,43 @@
+# Site
+name: "Design Portfolio"
+title: "Design Portfolio"
+description: "Design Portfolio"
+meta_description: "Design Portfolio."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+paginate: 12
+baseurl: '/designportfolio'
+email: ''
+google_analytics: ''
+disqus: 'demowebsite'
+sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
+
+# Authors
+authors:
+  Lili:
+    name: Lili
+    display_name: Lili
+    gravatar: 
+    email: 
+    web: https://lilidesigns.github.io/designportfolio
+    twitter: 
+    description: "Test"
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+        
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Other
+markdown: kramdown
+highlighter: rouge
