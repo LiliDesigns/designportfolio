@@ -4,8 +4,10 @@ Copyright:WowThemes.net,https://www.wowthemes.net
 Version:1.0.2
 License: https://www.wowthemes.net/freebies-license/
 */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
-    font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    font-family: 'Merriweather', serif;
     overflow-x: hidden;
 }
 .mainheading {
@@ -119,7 +121,7 @@ section.recent-posts {
     font-size: 0.94em;        
 	}
 .navbar-toggleable-md .navbar-nav .nav-link.highlight {
-    background: #6FD350;
+    background: #A07855FF;
     color: #fff;
     border-radius: 4px;
     box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1);
@@ -292,7 +294,7 @@ span.post-name a,span.post-read-more a:hover {
 }
 .mediumnavigation .form-inline .btn:hover,.mediumnavigation .form-inline .btn:active {
 	background:transparent;
-	color:green;
+	color:rgb(85, 163, 85);
 }
 .mediumnavigation .navbar-brand {
 	font-weight:500;
@@ -317,6 +319,10 @@ span.post-name a,span.post-read-more a:hover {
 	margin-right:7px;
     vertical-align: text-bottom;
     max-width:initial;
+}
+.navbar-brand img{
+    height:auto;
+    width:20%;
 }
 .mainheading h1.sitetitle {
 	font-family:Georgia;
@@ -763,7 +769,7 @@ background-color: #fff;
 #mc_embed_signup {font-family:inherit !Important;}
 .sidebar-right .sidebar {max-width:inherit;}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    font-family: 'Merriweather', serif;
 }
 .article-post .h1, .article-post .h2, .article-post .h3, .article-post .h4, .article-post .h5, .article-post .h6, .article-post h1, .article-post h2, .article-post h3, .article-post h4, .article-post h5, .article-post h6 {
     font-weight: 500;

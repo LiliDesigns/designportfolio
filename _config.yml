@@ -3,7 +3,7 @@ name: "Design Portfolio"
 title: "Design Portfolio"
 description: "Design Portfolio"
 meta_description: "Design Portfolio."
-logo: 'assets/images/logo.png'
+logo: 'assets/images/2.jpg'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
 baseurl: '/designportfolio'
